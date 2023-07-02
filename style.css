@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+#label{
+    font-size:25px;
+}
+#confidence{
+    font-size: 25px;
+}
+
+#show_sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 40px pink ;} 
+    to {box-shadow: 1px 1px 40px lightcoral ;}
+}
